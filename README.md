@@ -1,10 +1,6 @@
-Here’s a **README** for the **Supply Chain Tracking Platform** using Clarity:
+# Trackr – Decentralized Supply Chain Tracking
 
----
-
-# Supply Chain Tracking Platform
-
-This project is a decentralized application (dApp) built on the Stacks blockchain using Clarity smart contracts. It enables transparent and immutable tracking of products through various stages of the supply chain—allowing manufacturers, distributors, retailers, and customers to interact with product data at each stage.
+**Trackr** is a decentralized application (dApp) built on the Stacks blockchain using Clarity smart contracts. It enables transparent and immutable tracking of products as they move through the supply chain, allowing manufacturers, distributors, retailers, and customers to interact with product data at each stage.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -21,7 +17,7 @@ This project is a decentralized application (dApp) built on the Stacks blockchai
 - [License](#license)
 
 ## Overview
-The **Supply Chain Tracking Platform** provides an immutable record of the movement of products from manufacturers to customers. This decentralized system helps enhance transparency and trust by enabling all participants (manufacturers, distributors, retailers, and customers) to access and verify the history of a product at any point.
+**Trackr** provides an immutable record of the movement of products from manufacturers to customers. This decentralized platform ensures transparency and trust by enabling all participants (manufacturers, distributors, retailers, and customers) to access and verify the history of a product at any point.
 
 ## Features
 - **Product Creation**: Manufacturers can register new products on the blockchain.
@@ -39,8 +35,8 @@ The **Supply Chain Tracking Platform** provides an immutable record of the movem
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/supply-chain-tracking.git
-   cd supply-chain-tracking
+   git clone https://github.com/your-username/trackr.git
+   cd trackr
    ```
 
 2. Install dependencies for development (Clarinet, Stacks CLI):
@@ -50,7 +46,7 @@ The **Supply Chain Tracking Platform** provides an immutable record of the movem
 
 3. Initialize Clarinet project (if not already):
    ```bash
-   clarinet new supply-chain-tracking
+   clarinet new trackr
    ```
 
 ### Running the Project
@@ -62,7 +58,7 @@ You can run the project locally for testing:
 
 2. Deploy the contract to the Stacks testnet:
    ```bash
-   stacks-cli deploy ./contracts/supply-chain-tracking.clar
+   stacks-cli deploy ./contracts/trackr.clar
    ```
 
 ## Contract Design
@@ -112,14 +108,10 @@ Once the contract has passed all tests, you can deploy it to the Stacks mainnet 
 
 1. Deploy the contract using Stacks CLI:
    ```bash
-   stacks-cli deploy ./contracts/supply-chain-tracking.clar
+   stacks-cli deploy ./contracts/trackr.clar
    ```
 
 2. Once deployed, the contract will be immutable and ready to use on the blockchain.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides a complete overview for users and developers working with the project. You can update or expand this further if needed for specific use cases.
